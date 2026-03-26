@@ -1,0 +1,11 @@
+Overview
+Extract structured voting data from scanned Thai election result documents (Form สส.6/1) from the 2026 Thai general election.
+
+Given PNG scans of official election documents, your task is to:
+
+Locate the correct row for each party in the voting tables
+Extract the corresponding vote count
+Convert all numbers to Arabic digits (0-9)
+Party names are pre-filled in the submission template — you only need to predict the vote counts.
+
+This is a test-set-only competition. There is no training data. You are expected to use existing OCR tools, Vision LLMs, or APIs. The focus is on prompt engineering, post-processing, and pipeline design.
